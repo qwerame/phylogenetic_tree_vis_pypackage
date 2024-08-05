@@ -1,26 +1,15 @@
-### Install dependencies
-
-If you have selected install_dependencies during the prompt, you can skip this part.
-
-1. Install npm packages
-    ```
-    $ npm install
-    ```
-2. Create a virtual env and activate.
+1. Create a virtual env and activate.
     ```
     $ virtualenv venv
     $ . venv/bin/activate
     ```
     _Note: venv\Scripts\activate for windows_
 
-3. Install python packages required to build components.
+2. Install python packages required to build components.
     ```
     $ pip install -r requirements.txt
     ```
-4. Install the python packages for testing (optional)
-    ```
-    $ pip install -r tests/requirements.txt
-    ```
+
 
 ### 测试三个数据集的可视化效果
 
